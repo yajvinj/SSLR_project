@@ -23,6 +23,7 @@ class VideoFilePathToTensor(object):
             - None: won't padding, video length is variable.
             - 'zero': padding the rest empty frames to zeros.
             - 'last': padding the rest empty frames to the last frame.
+            - Commit test 
     """
 
     def __init__(self, max_len=None, fps=None, padding_mode=None):

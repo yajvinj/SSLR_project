@@ -25,6 +25,7 @@ class VideoFilePathToTensor(object):
             - 'last': padding the rest empty frames to the last frame.
             - Commit test
             - Commit test 2
+            - Commit test 3
     """
 
     def __init__(self, max_len=None, fps=None, padding_mode=None):

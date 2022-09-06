@@ -27,6 +27,7 @@ class VideoFilePathToTensor(object):
             - Commit test 2
             - Commit test 3
             - Commit test 4
+            - Commit test 5
     """
 
     def __init__(self, max_len=None, fps=None, padding_mode=None):
